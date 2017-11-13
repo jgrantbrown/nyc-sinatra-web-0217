@@ -1,0 +1,10 @@
+<p>More info about this <%= @figure.name %>!!</p>
+
+<h2>Titles Held </h2>
+
+
+
+<h2> Landmark Name </h2>
+<% @figure.landmarks.each do |landmark| %>
+<%= landmark.name %>
+<% end %>
